@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {View, TextInput, Text, TouchableOpacity, ScrollView, StyleSheet, Keyboard} from 'react-native';
-import axios from 'axios';
+// import axios from 'axios';
 
 var symptomsLst = [];
 export default function SymptomFormScreen({route, navigation}) {

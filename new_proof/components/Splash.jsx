@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 // import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 import { ContainerStyles, TextStyles, ButtonStyles } from './Styles';
-import LogoImage from '../assets/Aquinas_Caduceus.png';
+import LogoImage from '../assets/logo_adobe_express.svg';
 import { useTheme } from 'react-native-paper';
 
 

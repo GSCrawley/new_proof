@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
-import axios from 'axios';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// import axios from 'axios';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import { ContainerStyles, TextStyles, ButtonStyles, Colors } from '../Styles';
+import { ContainerStyles, TextStyles, ButtonStyles, Colors } from './Styles.jsx';
 
 export default function LoginScreen({ route, navigation }) {
   const [emailInput, setEmailInput] = useState('');

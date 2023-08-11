@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
-import axios from 'axios';
+// import axios from 'axios';
 
 export default function ProfileScreen({ route, navigation }) {
   const [content, setContent] = useState('');

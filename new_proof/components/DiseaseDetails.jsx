@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
-import axios from 'axios';
+// import axios from 'axios';
 
 export default function DiseaseDetailScreen(route, navigation) {
   const [text, setText] = useState('');

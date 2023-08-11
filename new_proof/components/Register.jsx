@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
-import axios from 'axios';
-import { ContainerStyles, TextStyles, ButtonStyles, Colors } from '../Styles';
+// import axios from 'axios';
+import { ContainerStyles, TextStyles, ButtonStyles, Colors } from './Styles.jsx';
 
 export default function RegistrationScreen({ route, navigation }) {
   const [name, setName] = useState('');
